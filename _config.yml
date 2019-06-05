@@ -16,12 +16,11 @@
 
 title: "Hello. I'm Andrea Wan."
 email: 'andreajiaanwan@gmail.com'
-description: "I'm a data analyst based in NYC, who creates social good project on the side."
+description: "Peace, Love & Data"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wanandrea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 'jamigibbs'
 github_username: 'wanandrea'
-linkedin_username: 'andreawanpsu'
+linkedin_username: 'wanandrea'
 
 # Build settings
 markdown: kramdown
