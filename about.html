@@ -1,0 +1,221 @@
+---
+layout: inner
+title: About
+permalink: /about/
+---
+
+<!--
+<style>
+
+    {
+        margin: 0
+    ;
+        padding: 0
+    ;
+        border: 0
+    ;
+    }
+
+    /* relevant styles */
+    .img__wrap {
+        position: relative;
+        height: 285px;
+        width: 357px;
+    }
+
+
+    .img__description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.72);
+        color: #000000;
+        visibility: hidden;
+        opacity: 0;
+
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
+
+    .img__wrap:hover .img__description {
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+</style>
+
+
+<div class="img__wrap">
+
+    <img class="img-responsive" src="/img/posts/Me.jpg" width="800"/>
+
+    <p class="img__description" style="text-align:center;">This image looks super neat.</p>
+
+</div>
+
+, a data analyst based in New York City. During my short tenure as a programmer, I’ve worked with front-end tools such as AngularJS and taught myself a variety of algorithms. I love designing a technical tool to be as cost-effective as possible. During my free time, I like to run, work on my drawing and print-making, and learn new languages (I’m fluent in English, Mandarin, and Shanghainese, can converse in Spanish, and can read some Latin). Some of my most enjoyable Penn State undergraduate memories are of organizing and participating in different hackathons. From these experiences I’ve developed long-standing friendships and a mind eager for new ideas.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Styles -->
+<link rel="stylesheet" href="/css/animate.min.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .img__wrap {
+        position: relative;
+    }
+
+    .img__description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.72);
+        color: #000000;
+        visibility: hidden;
+        opacity: 0;
+
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
+
+    .img__wrap:hover .img__description {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+        .column {
+            -ms-flex: 60%;
+            flex: 60%;
+            max-width: 60%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 1000px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+
+    }
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>About Me</h1>
+    <p>During my short tenure as a programmer, I’ve worked with front-end tools such as AngularJS and taught myself a variety of algorithms. I love designing a technical tool to be as cost-effective as possible. During my free time, I like to run, work on my drawing and print-making, and learn new languages (I’m fluent in English, Mandarin, and Shanghainese, can converse in Spanish, and can read some Latin). Some of my most enjoyable Penn State undergraduate memories are of organizing and participating in different hackathons. From these experiences I’ve developed long-standing friendships and a mind eager for new ideas.<br>Here are some of my journeys!</p>
+</div>
+
+<!-- Photo Grid -->
+
+<div class="row">
+
+    <div class="column">
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/Ecuador.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@Ecuador</p>
+        </div>
+
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/Me.jpg" style="width:100%">
+            <p class="img__description" style="text-align:center;">@New York</p>
+        </div>
+    </div>
+
+
+    <div class="column">
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/psu.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@Penn State</p>
+        </div>
+
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/brain.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@HackPSU</p>
+        </div>
+
+    </div>
+
+    <div class="column">
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/ecuador2.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@Ecuador</p>
+        </div>
+
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/alaska.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@Alaska</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/beijing.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@Beijing</p>
+        </div>
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/Denali.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@Denali</p>
+        </div>
+        <div class="img__wrap">
+            <img class="img-responsive" src="/img/posts/NewO.JPG" style="width:100%">
+            <p class="img__description" style="text-align:center;">@New Orleans</p>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
