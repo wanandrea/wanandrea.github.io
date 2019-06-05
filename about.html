@@ -57,12 +57,38 @@ permalink: /about/
 </div>
 
 , a data analyst based in New York City. During my short tenure as a programmer, I’ve worked with front-end tools such as AngularJS and taught myself a variety of algorithms. I love designing a technical tool to be as cost-effective as possible. During my free time, I like to run, work on my drawing and print-making, and learn new languages (I’m fluent in English, Mandarin, and Shanghainese, can converse in Spanish, and can read some Latin). Some of my most enjoyable Penn State undergraduate memories are of organizing and participating in different hackathons. From these experiences I’ve developed long-standing friendships and a mind eager for new ideas.
+
+    .img__wrap {
+        position: relative;
+    }
+
+    .img__description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.72);
+        color: #000000;
+        visibility: hidden;
+        opacity: 0;
+
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
+
+    .img__wrap:hover .img__description {
+        visibility: visible;
+        opacity: 1;
+    }
+
 -->
 
 <!DOCTYPE html>
 <html>
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700'
+      rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -94,9 +120,9 @@ permalink: /about/
 
     /* Create four equal columns that sits next to each other */
     .column {
-        -ms-flex: 25%; /* IE10 */
-        flex: 25%;
-        max-width: 25%;
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
         padding: 0 4px;
     }
 
@@ -106,36 +132,46 @@ permalink: /about/
         width: 100%;
     }
 
-    .img__wrap {
+    .image-container {
         position: relative;
+        display: inline-block;
     }
 
-    .img__description {
+    .image-container .hover-text {
         position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(255, 255, 255, 0.72);
-        color: #000000;
+        top: 40%;
+        width: 100%;
+
+        text-align: center;
         visibility: hidden;
-        opacity: 0;
-
-        /* transition effect. not necessary */
-        transition: opacity .2s, visibility .2s;
     }
 
-    .img__wrap:hover .img__description {
+    .image-container:hover .hover-text {
         visibility: visible;
-        opacity: 1;
     }
+
+    .hover-text {
+        font-family: "Open Sans";
+        color: black;
+        background: rgba(255, 255, 255, 0.72);
+        font-size: 1.5em;
+        text-shadow: 1.5px 1.5px 1.5px white;
+
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+    }
+
+    .hover-text a {
+        color: black;
+    }
+
 
     /* Responsive layout - makes a two column-layout instead of four columns */
     @media screen and (max-width: 900px) {
         .column {
-            -ms-flex: 60%;
-            flex: 60%;
-            max-width: 60%;
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
         }
     }
 
@@ -154,7 +190,12 @@ permalink: /about/
 <!-- Header -->
 <div class="header">
     <h1>About Me</h1>
-    <p>During my short tenure as a programmer, I’ve worked with front-end tools such as AngularJS and taught myself a variety of algorithms. I love designing a technical tool to be as cost-effective as possible. During my free time, I like to run, work on my drawing and print-making, and learn new languages (I’m fluent in English, Mandarin, and Shanghainese, can converse in Spanish, and can read some Latin). Some of my most enjoyable Penn State undergraduate memories are of organizing and participating in different hackathons. From these experiences I’ve developed long-standing friendships and a mind eager for new ideas.<br>Here are some of my journeys!</p>
+    <p>During my short tenure as a programmer, I’ve worked with front-end tools such as AngularJS and taught myself a
+        variety of algorithms. I love designing a technical tool to be as cost-effective as possible. During my free
+        time, I like to run, work on my drawing and print-making, and learn new languages (I’m fluent in English,
+        Mandarin, and Shanghainese, can converse in Spanish, and can read some Latin). Some of my most enjoyable Penn
+        State undergraduate memories are of organizing and participating in different hackathons. From these experiences
+        I’ve developed long-standing friendships and a mind eager for new ideas.<br>Here are some of my journeys!</p>
 </div>
 
 <!-- Photo Grid -->
@@ -162,7 +203,24 @@ permalink: /about/
 <div class="row">
 
     <div class="column">
-        <div class="img__wrap">
+
+        <div class="image-container">
+            <img src="/img/posts/Ecuador.JPG">
+            <div class="hover-text">
+                @Ecuador <!--a href="#">Link</a-->
+            </div>
+        </div>
+
+
+        <div class="image-container">
+            <img src="/img/posts/Me.jpg">
+            <div class="hover-text">
+                @New York
+            </div>
+        </div>
+
+
+        <!--div class="img__wrap">
             <img class="img-responsive" src="/img/posts/Ecuador.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@Ecuador</p>
         </div>
@@ -170,12 +228,24 @@ permalink: /about/
         <div class="img__wrap">
             <img class="img-responsive" src="/img/posts/Me.jpg" style="width:100%">
             <p class="img__description" style="text-align:center;">@New York</p>
+        </div-->
+
+
+        <div class="image-container">
+            <img src="/img/posts/psu.JPG">
+            <div class="hover-text">
+                @Penn State
+            </div>
         </div>
-    </div>
 
+        <div class="image-container">
+            <img src="/img/posts/brain.JPG">
+            <div class="hover-text">
+                @HackPSU
+            </div>
+        </div>
 
-    <div class="column">
-        <div class="img__wrap">
+        <!--div class="img__wrap">
             <img class="img-responsive" src="/img/posts/psu.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@Penn State</p>
         </div>
@@ -183,12 +253,27 @@ permalink: /about/
         <div class="img__wrap">
             <img class="img-responsive" src="/img/posts/brain.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@HackPSU</p>
-        </div>
+        </div-->
 
     </div>
 
     <div class="column">
-        <div class="img__wrap">
+
+        <div class="image-container">
+            <img src="/img/posts/ecuador2.JPG">
+            <div class="hover-text">
+                @Ecuador
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="/img/posts/alaska.JPG">
+            <div class="hover-text">
+                @Alaska
+            </div>
+        </div>
+
+        <!--div class="img__wrap">
             <img class="img-responsive" src="/img/posts/ecuador2.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@Ecuador</p>
         </div>
@@ -196,11 +281,30 @@ permalink: /about/
         <div class="img__wrap">
             <img class="img-responsive" src="/img/posts/alaska.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@Alaska</p>
-        </div>
-    </div>
+        </div-->
 
-    <div class="column">
-        <div class="img__wrap">
+        <div class="image-container">
+            <img src="/img/posts/beijing.JPG">
+            <div class="hover-text">
+                @Beijing
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="/img/posts/Denali.JPG">
+            <div class="hover-text">
+                @Denali
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="/img/posts/NewO.JPG">
+            <div class="hover-text">
+                @New Orleans
+            </div>
+        </div>
+
+        <!--div class="img__wrap">
             <img class="img-responsive" src="/img/posts/beijing.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@Beijing</p>
         </div>
@@ -211,7 +315,7 @@ permalink: /about/
         <div class="img__wrap">
             <img class="img-responsive" src="/img/posts/NewO.JPG" style="width:100%">
             <p class="img__description" style="text-align:center;">@New Orleans</p>
-        </div>
+        </div-->
 
     </div>
 </div>
