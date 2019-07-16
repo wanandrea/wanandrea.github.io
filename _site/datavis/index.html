@@ -4,7 +4,7 @@
   <!-- Meta -->
   <meta charset="utf-8">
 
-  <title>datascience - Hello. I'm Andrea Wan.</title>
+  <title>datavis - Hello. I'm Andrea Wan.</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="yes" name="apple-mobile-web-app-capable">
@@ -249,177 +249,113 @@
 </style>
 <body>
 
-<h1>Data Science Projects</h1>
-
+<h1>Data Visualization Analysis</h1>
+<code>install.packages("shiny")</code>
 <div align="left" style="text-align:left">
     <br>
-    <h3><i>Health System Project</i></h3>
-    <p>From March 26 to 30, 2018, I participated in the <a
-            href="https://pennstate.qualtrics.com/jfe/form/SV_9vJdPQlITBsR3ut">3-Day Health Pro Challenge</a> during
-        Penn State’s <a href="https://psustartupweekchallenge.weebly.com">Startup week</a>.</p>
-    <p>Responsibilities: Web UI Design, iOS Mock Up, Health Solution Research​​​​​​​, Interaction Design, Project
-        Lead</p>
+    <h3><i>HackPSU Data Analysis</i></h3>
+    <p>Responsibilities: AngularJS, Web UI Design, Data Visualization, Marketing Solution</p>
     <br>
     <b>
         <h3><u>Research &amp; Design Process</u></h3>
         <oli>
-            <li><strong>Identify the key opportunities and target audience</strong></li>
-            <li><strong><a
-                    href="https://docs.google.com/presentation/d/1YPfLovGWKJpAsFW-4iFm2LKMbyLiI-Qvn-ye5SHTk4E/edit?usp=sharing">Create
-                iOS mock up for competition </a></strong></li>
-            <li><strong>Receive reviews from judges</strong></li>
-            <li><strong>Refine the concept to apply to a specific opportunity</strong></li>
+            <li>Identify the key opportunities and target audience</li>
+            <li>Create data visualization solution</li>
     </b>
-    <li>Develop the web application “Pat Your Pet”(below)</li>
-    <li>Attend Hackathon</li>
-    <li>Analyze reviews and future direction</li>
+
     </oli>
 
     <br>
     <h3><b><u>General Opportunity</u></b></h3>
     <h3><b><u>Goal: </u></b></h3>
-    <p>The project aimed to find cost-effective solutions for a developing country’s patients during a disease outbreak.
-        It focused on epidemiology, the study of the distribution and determinants of health-related states or events
-        (including disease).</p>
+    <p>In January 2018, I joined the Technology Team for <a href="https://hackpsu.org/">HackPSU</a>, one of the largest of all student-organized hackathons. The team works on new services to provide better experiences for attendees, such as using Amazon Web Services web-hosting for a new administrative portal, switching to a continuous integration system for industry-like code review, and devising an RFID tracking system to replace the QR tracker used in the past. I specialized in creating visualizations of the data that was collected before, during, and after the event, for internal and external analytic use.</p>
     <br>
-    <h3><b><u>Opportunity: </u></b></h3>
-    <p>During epidemics and health emergencies, national infrastructure and health systems can be subjected to stresses
-        that interfere with their ability to provide critical support for citizens. What could help patients to
-        self-diagnose medical conditions and disease?
+    <p>I encountered three opportunities for making statistics more meaningful through visualization. These had to do with registration patterns, logistical statistics, and profiles of the attendees who submitted final projects.</p>
+    <br>
+    <p>All work was oriented towards HackPSU’s mission: “Learn, Build, Share.”</p>
+    <h3><b><u>Opportunity 1: </u></b></h3>
+    <h4><b><u>Goal: </u></b></h4>
+    <p>The project aimed to find participants’ event registration patterns.
     </p>
-    <p>First, I identified that there is adequate internet and phone access in developing countries. For example,
-        according to the Pew Research Center, in 2015, 81% of Indians and 97% of Chinese had cell phones. The majority
-        of developing countries have 3G Internet coverage.</p>
+    <h4><b><u>Context: </u></b></h4>
+    <p>The Executive Board of HackPSU wanted to understand participant registration data so that it could better market the event. The Board was interested in knowing registration trends and patterns as well as when registration hit its peak.</p>
     <br>
-    <h3><b><u>Target Audience: </u></b></h3>
-    <p>Individuals who ordinarily receive little or inconsistent health support from their community or country.</p>
-    <br>
-    <h3><b><u>App Design</u></b></h3>
-    <p>I designed an iOS mockup that helps patients to self-screen for infection and find venues for medical
-        treatment.</p>
+    <p>First, I identified that there are several sources from which most of the attendees had heard of the event, including Facebook and referrals from friends.</p>
 
+    <h3><b><u>Target Audience: </u></b></h3>
+    <p>Sponsors and the Executive Board of HackPSU</p>
     <div class="img__wrap">
-        <img class="img-responsive" src="/img/posts/appmockup.png" style="width:80%">
+        <img class="img-responsive" src="/img/posts/hackpsu1.png" style="width:80%">
     </div>
 
-    <p>The mockup has two main features: the self-screen and a locator for nearby clinics.</p>
+    <h3><b><u>Design Rational</u></b></h3>
+    <p>I designed an interactive tool with which the user can choose from various timelines.</p>
+    <p>The tool was written using AngularJS and JavaScript visualization toolkit and presents a line chart and a pie chart.</p>
+    <p>The<b> Line chart</b> indicates that registration peaked between March 11 and March 18; this corresponds to a marketing push by the event-marketing team (including distributing flyers and displaying posters at locations with student concentrations).</p>
+    <p>The<b> Pie Chart</b> illustrates the influence that extra credit from a class had on students’ willingness to register.</p>
     <br>
 
-    <p>
-        <strong><b>Self-screen</b></strong>: Patients take a ‘smart’ survey, where each question they answer determines
-        the next, establishing the likelihood that they are infected.
-        <br>
-        <strong><b>Location</b></strong>: The app searches for nearby clinics.
-        <br>
-        <br>
-    <h3><u><b>Additional features</b></u></h3>
-    <p>
-        <strong><b>Statistics</b></strong>: The app collects data from local hospitals and shows the number of infected
-        individuals in the community.
-        <br>
-        This can be a life-saver; for instance, if the data shows a high level of infection, parents could avoid
-        cross-infection by limiting their children’s after-school activities.
-        <br>
-        <strong><b>Advertising</b></strong>: On the app, pharmaceutical companies and drug stores could advertise for
-        over-the-counter medications.
+    <h3><b><u>Opportunity 2: </u></b></h3>
+    <h4><b><u>Goal: </u></b></h4>
+    <p>The project aimed to determine logistically relevant statistics of attendees.
     </p>
+    <h4><b><u>Context: </u></b></h4>
+    <p>The Executive Board of HackPSU wanted to understand user profiles so that they could better anticipate several logistical aspects of the event.</p>
     <br>
-    <h3><b><u>Feedback from Judges:</u></b></h3>
+    <p>I worked on creating representations of the data for students’ shirt sizes (HackPSU had special event shirts made for participants) as well as their dietary restrictions so that the logistics team could have a reference for which shirt sizes and how much diet-specific food to order. During and after previous events, attendees have complained about the food, due to their religious and cultural preferences. In the past, the logistics team had not been aware of the proportion of attendees who have such needs. They hope to avoid such situations in the future.</p>
 
-    <p>Be more explicit on your product, tell the audience what you are providing. It's an App that will collect data on
-        the audience’s symptoms and provide it to local health authorities and NGO's so authorities can respond
-        appropriately.
-    </p>
-    <p>Give more details on specifically what's in it for the patient, why should they do this?
-    </p>
+    <h3><b><u>Target Audience: </u></b></h3>
+    <p>The logistics team of HackPSU</p>
+    <div class="img__wrap">
+        <img class="img-responsive" src="/img/posts/hackpsu2.png" style="width:80%">
+    </div>
+    <h3><b><u>Design Rational</u></b></h3>
+    <p>I designed a statistics table and a donut chart, where the user could see the presentation of the number visually.</p>
+    <p>The tool is written using AngularJS and JavaScript visualization toolkit, presenting a table and a donut chart.</p>
+    <p>The<b>Table</b> shows the shirt size of the attendees, and it follows a normal distribution.</p>
+    <p>The<b> Donut Chart </b>shows the proportion of students with special dietary constraint.</p>
     <br>
-    <p><i>Responding to the judges’ feedback, I narrowed the general opportunity regarding epidemics and health
-        emergencies down to a more specific opportunity: <a href="https://sites.psu.edu/andreawan/pat-your-pet/">pet
-            health emergencies</a>. The end result competed in <a href="http://gotechnica.org/">Technica 2018</a>.</i>
-    </p>
 
+    <h3><b><u>Opportunity 3: </u></b></h3>
+    <h4><b><u>Goal: </u></b></h4>
+    <p>The project aimed to attract more students to attend the event and, more importantly, to submit a final project.
     </p>
+    <h4><b><u>Context: </u></b></h4>
+    <p>Although there were over 800 attendees for the most recent hackathon, only about 10% of them submitted a final project.</p>
+    <br>
+    <h3><b><u>Target Audience: </u></b></h3>
+    <p>Major League Hacking and the Executive Board of HackPSU</p>
+
+
+    <h3><b><u>Design Rational</u></b></h3>
+    <p>I designed <a href="https://github.com/wanandrea/HackPSU2018_dataanalysis">Shiny App </a>that includes various charts, visualizing the profile features of the attendees.</p>
+    <p>The tool was written using only R, the statistical programming language, and its user interface tool, Shiny App.</p>
+    <div class="img__wrap">
+        <img class="img-responsive" src="/img/posts/purple.png" style="width:80%">
+    </div>
+    <div class="img__wrap">
+        <img class="img-responsive" src="/img/posts/blue.png" style="width:80%">
+    </div>
+    <div class="img__wrap">
+        <img class="img-responsive" src="/img/posts/red.png" style="width:80%">
+    </div>
+
+    <p>The<b> Pie Chart</b> shows the students’ academic years, gender, and level of coding experience, using slightly varying colors.</p>
+    <br>
+    <div class="img__wrap">
+        <img class="img-responsive" src="/img/posts/lollipop.png" style="width:80%">
+    </div>
+
+    <p>The<b> Lollipop Chart</b> conveys information like a bar chart but with a modernist spin. I decided to use it to represent the students’ academic majors due to the length of some of the majors’ titles.</p>
+    <br>
+    <div class="img__wrap">
+        <img class="img-responsive" src="/img/posts/dotplot.png" style="width:80%">
+    </div>
+    <p>The<b> Dot Plot</b> is similar to the lollipop chart, but I thought it would be fun to try it out with attendees’ racial affiliation data. It illustrates which racial affiliation was best represented at the event and ranks the rest. A bar chart would have the same effect, but I wanted to try an unconventional graphic device.</p>
 </div>
 
 
-<div align="left" style="text-align:left">
-    <br>
-    <h3><i>Pat Your Pet</i></h3>
-    <p>Responding to the judges’ feedback from Health Pro Challenge(above) I narrowed the general opportunity regarding
-        epidemics and health emergencies down to a more specific opportunity: pet health emergencies. The end result
-        competed in <a href="http://gotechnica.org/">Technica 2018</a>.</p>
-    <p>Source Code: <a href="https://devpost.com/software/pat-your-pet#updates">Devpost</a> | <a
-            href="https://github.com/wanandrea/technica2018_PatYourPet">Github</a></p>
-    <br>
 
-    <h3><u>Research &amp; Design Process</u></h3>
-    <oli>
-        <li><strong>Identify the key opportunities and target audience</strong></li>
-        <li><strong><a
-                href="https://docs.google.com/presentation/d/1YPfLovGWKJpAsFW-4iFm2LKMbyLiI-Qvn-ye5SHTk4E/edit?usp=sharing">Create
-            iOS mock up for competition </a></strong></li>
-        <li><strong>Receive reviews from judges</strong></li>
-        <b>
-            <li><strong>Refine the concept to apply to a specific opportunity</strong></li>
-            <li>Develop the web application “Pat Your Pet”</li>
-            <li>Attend Hackathon</li>
-            <li>Analyze reviews and future direction</li>
-        </b>
-    </oli>
-
-    <br>
-    <h3><b><u>A Specific Opportunity</u></b></h3>
-    <h3><b><u>Goal: </u></b></h3>
-    <p>The project aimed to find cost-effective solutions for pet owners when their pets are sick and needs timely
-        assistance. It borrowed concepts and modified design features from the first project.</p>
-    <br>
-    <h3><b><u>Opportunity: </u></b></h3>
-    <p>People often have tools to book an appointment with their doctors, such as <a href="https://www.zocdoc.com/">zocdoc</a>,
-        whereas pet owners don’t have such a tool for their pets.
-    </p>
-    <br>
-    <h3><b><u>Target Audience: </u></b></h3>
-    <p>Pet owners, especially in medical emergencies</p>
-    <br>
-    <h3><b><u>Design Rational:</u></b></h3>
-    <p>I designed a web application in R that helps pet owners to diagnose health issues in their pets and find venues
-        for medical treatment, including general insurance information, a diagnostic tool, and a locator for nearby
-        veterinary facilities.</p>
-
-    <div class="img__wrap">
-        <img class="img-responsive" src="/img/posts/patyourpet1.png" style="width:80%">
-    </div>
-
-    <p>The opening page provides links to pet insurance (not all pet owners have it). Once the owner is aware of this
-        information, he or she can continue to the next tab.</p>
-    <br>
-
-    <div class="img__wrap">
-        <img class="img-responsive" src="/img/posts/patyourpet2.png" style="width:80%">
-    </div>
-
-    <p>Under the “Profile” tab, the owner enters information about his or her pet, including the type of animal, its
-        physical symptoms, and when the owner would like to meet with a veterinarian.</p>
-    <br>
-
-    <div class="img__wrap">
-        <img class="img-responsive" src="/img/posts/patyourpet3.png" style="width:80%">
-    </div>
-
-    <p>Last, this application provides a tool to find nearby veterinary facilities. The dollar-sign ranking system is
-        inspired by Yelp.com.</p>
-    <br>
-
-    <h3><b><u>Feedback from Judges:</u></b></h3>
-
-    <p>Most of the judges from Technica 2018 liked the idea of an application for pet owners and found it practical.
-        Most were impressed that the app was built entirely in R, a statistics programming language. The team also
-        received positive feedback for the user interface design. One important observation was that we didn’t have a
-        database connected to the app, so we couldn’t store data or interact with the map in real-time.
-    </p>
-
-    </p>
-</div>
 
 
 </body>
