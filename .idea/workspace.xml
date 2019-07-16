@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datavis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2189">
-              <caret line="187" column="6" lean-forward="true" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+            <state relative-caret-position="218">
+              <caret line="232" selection-start-line="232" selection-end-line="232" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#9934#9951#0" expanded="true" />
@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="266" column="149" selection-start-line="266" selection-start-column="149" selection-end-line="266" selection-end-column="149" />
+            <state relative-caret-position="89">
+              <caret line="266" column="169" selection-start-line="266" selection-start-column="169" selection-end-line="266" selection-end-column="169" />
             </state>
           </provider>
         </entry>
@@ -155,14 +155,15 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/datascience.html" />
-        <option value="$PROJECT_DIR$/datavis.html" />
         <option value="$PROJECT_DIR$/shinytutorial.html" />
+        <option value="$PROJECT_DIR$/datavis.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="47" />
+    <option name="x" value="-177" />
+    <option name="y" value="27" />
     <option name="width" value="1280" />
     <option name="height" value="698" />
   </component>
@@ -246,15 +247,15 @@
       <workItem from="1562086195441" duration="2628000" />
       <workItem from="1562867018445" duration="1375000" />
       <workItem from="1563217935566" duration="6443000" />
-      <workItem from="1563300635033" duration="4307000" />
+      <workItem from="1563300635033" duration="4498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21125000" />
+    <option name="totallyTimeSpent" value="21316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="47" width="1280" height="698" extended-state="0" />
+    <frame x="-177" y="27" width="1280" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
@@ -347,21 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datavis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2189">
-          <caret line="187" column="6" lean-forward="true" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9934#9951#0" expanded="true" />
-            <element signature="e#10058#10075#0" expanded="true" />
-            <element signature="e#10182#10199#0" expanded="true" />
-            <element signature="e#10087#10104#0" expanded="true" />
-            <element signature="e#10782#10799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1282">
@@ -384,10 +370,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datavis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9934#9951#0" expanded="true" />
+            <element signature="e#10058#10075#0" expanded="true" />
+            <element signature="e#10182#10199#0" expanded="true" />
+            <element signature="e#10087#10104#0" expanded="true" />
+            <element signature="e#10782#10799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="266" column="149" selection-start-line="266" selection-start-column="149" selection-end-line="266" selection-end-column="149" />
+        <state relative-caret-position="89">
+          <caret line="266" column="169" selection-start-line="266" selection-start-column="169" selection-end-line="266" selection-end-column="169" />
         </state>
       </provider>
     </entry>
