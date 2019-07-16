@@ -55,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datavis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2804">
+            <state relative-caret-position="2189">
               <caret line="187" column="6" lean-forward="true" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shinytutorial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="211" column="8" lean-forward="true" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+            <state relative-caret-position="-296">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding>
                 <element signature="e#4361#4384#0" expanded="true" />
                 <element signature="e#9928#9945#0" expanded="true" />
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="210" column="164" selection-start-line="210" selection-start-column="164" selection-end-line="210" selection-end-column="164" />
+            <state relative-caret-position="3135">
+              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
             </state>
           </provider>
         </entry>
@@ -156,13 +156,13 @@
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/datascience.html" />
         <option value="$PROJECT_DIR$/datavis.html" />
-        <option value="$PROJECT_DIR$/shinytutorial.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/shinytutorial.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-94" />
+    <option name="x" value="89" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="698" />
@@ -247,15 +247,15 @@
       <workItem from="1562086195441" duration="2628000" />
       <workItem from="1562867018445" duration="1375000" />
       <workItem from="1563217935566" duration="6443000" />
-      <workItem from="1563300635033" duration="2983000" />
+      <workItem from="1563300635033" duration="3095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19801000" />
+    <option name="totallyTimeSpent" value="19913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-94" y="23" width="1280" height="698" extended-state="0" />
+    <frame x="89" y="23" width="1280" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
@@ -355,24 +355,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shinytutorial.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="211" column="8" lean-forward="true" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
-          <folding>
-            <element signature="e#4361#4384#0" expanded="true" />
-            <element signature="e#9928#9945#0" expanded="true" />
-            <element signature="e#10048#10065#0" expanded="true" />
-            <element signature="e#10167#10184#0" expanded="true" />
-            <element signature="e#10440#10457#0" expanded="true" />
-            <element signature="e#10786#10803#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3135">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datavis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2804">
+        <state relative-caret-position="2189">
           <caret line="187" column="6" lean-forward="true" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -385,10 +377,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/shinytutorial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="210" column="164" selection-start-line="210" selection-start-column="164" selection-end-line="210" selection-end-column="164" />
+        <state relative-caret-position="-296">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="e#4361#4384#0" expanded="true" />
+            <element signature="e#9928#9945#0" expanded="true" />
+            <element signature="e#10048#10065#0" expanded="true" />
+            <element signature="e#10167#10184#0" expanded="true" />
+            <element signature="e#10440#10457#0" expanded="true" />
+            <element signature="e#10786#10803#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
