@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f32220-7ef0-4b65-abee-716d4048d752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ecuador.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/datascience/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/datascience/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/datavis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/datavis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/posts/01_bloc-jams-angular-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/posts/02_weathercast-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/posts/03_rescue-themes-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/posts/04_phantom-jekyll-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/shiny/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/shiny/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datascience.html" beforeDir="false" afterPath="$PROJECT_DIR$/datascience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datavis.html" beforeDir="false" afterPath="$PROJECT_DIR$/datavis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/posts/01_bloc-jams-angular-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/posts/02_weathercast-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/posts/03_rescue-themes-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/posts/04_phantom-jekyll-1130x864-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shinytutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/shinytutorial.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="209" column="36" selection-start-line="209" selection-start-column="36" selection-end-line="209" selection-end-column="36" />
+            <state relative-caret-position="154">
+              <caret line="198" column="62" selection-start-line="198" selection-start-column="62" selection-end-line="198" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecuador.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="411" column="77" selection-start-line="411" selection-start-column="77" selection-end-line="411" selection-end-column="77" />
+            <state relative-caret-position="440">
+              <caret line="397" column="12" lean-forward="true" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -172,8 +153,8 @@
         <option value="$PROJECT_DIR$/shinytutorial.html" />
         <option value="$PROJECT_DIR$/datavis.html" />
         <option value="$PROJECT_DIR$/datascience.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/ecuador.html" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -264,12 +245,12 @@
       <workItem from="1562867018445" duration="1375000" />
       <workItem from="1563217935566" duration="6443000" />
       <workItem from="1563300635033" duration="9505000" />
-      <workItem from="1563899270660" duration="2190000" />
+      <workItem from="1563899270660" duration="2361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28513000" />
+    <option name="totallyTimeSpent" value="28684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1280" height="698" extended-state="0" />
@@ -383,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="209" column="36" selection-start-line="209" selection-start-column="36" selection-end-line="209" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shinytutorial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -403,11 +377,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecuador.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="411" column="77" selection-start-line="411" selection-start-column="77" selection-end-line="411" selection-end-column="77" />
+        <state relative-caret-position="440">
+          <caret line="397" column="12" lean-forward="true" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="198" column="62" selection-start-line="198" selection-start-column="62" selection-end-line="198" selection-end-column="62" />
         </state>
       </provider>
     </entry>
